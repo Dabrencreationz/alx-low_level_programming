@@ -1,2 +1,6 @@
-#!/bin/bash
-int char ("\"Programming is like building a multilingual puzzle"); (0)
+include <stdio.h>
+int main (void)
+{ 
+	puts("\"programming is like building a multilingual puzzle.);
+	return (0)
+}
