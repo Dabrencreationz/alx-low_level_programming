@@ -7,7 +7,7 @@
  *
  * Description - print the variable n if positive or negative or 0.
  *
- * return: always 0 (success)
+ * return: Always 0 (success)
 */
 
 int main(void)
@@ -24,6 +24,6 @@ int main(void)
 		printf("%i is zero\n", n);
 	else 
 		printf("%i is negative\n", n);
-	
+
 	return (0);
 }
