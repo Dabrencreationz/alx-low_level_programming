@@ -6,10 +6,10 @@
  *
  * main - Entry point
  *
- * Description: print value of n status: greater than, zero and not less than 6.
+ * Description: print value n status: greater than, zero and not less than 6.
  *
  * Return: Always O (Success)
- *
+
 */
 
 int main(void)
