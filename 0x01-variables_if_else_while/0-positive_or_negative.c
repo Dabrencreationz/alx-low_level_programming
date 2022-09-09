@@ -8,7 +8,7 @@
  * Description - print whether the number stored in the variable n is positive or negative.
  *
  * return: (0) success
- *
+ */
 
  int main(void)
 
