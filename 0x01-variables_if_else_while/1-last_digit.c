@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *
  * Description: print value n status: greater than, zero and not less than 6.
@@ -13,7 +12,6 @@
 */
 
 int main(void)
-
 {
 	int n, digit;
 
