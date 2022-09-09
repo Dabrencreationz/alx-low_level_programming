@@ -8,7 +8,6 @@
  * Description - print the variable n if positive or negative or 0.
  *
  * return: always 0 (success)
- *
 */
 
 int main(void)
