@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/**main - Entry point
+/**
+ * main - Entry point
  *
  * Description - print whether the number stored in the variable n is positive or negative.
  *
