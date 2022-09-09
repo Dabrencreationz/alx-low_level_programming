@@ -8,13 +8,17 @@
  *
 int main(void)
 {
-/** my code*/
-if(n>0)
-	printf("%; positve\n", n);
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+
+/* my code*/
+if (n>0)
+	printf("%i; positve\n", n);
 else if (n==0)
-	printf("%; zero\n", n);
+	printf("%i; zero\n", n);
 else if (n<0)
-	print("%; negative\n", n)n;
+	print("%i; negative\n", n)n;
 	return (0);
 	}
 
