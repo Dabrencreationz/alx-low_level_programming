@@ -7,13 +7,12 @@
  *
  * Description - print the variable n if positive or negative or 0.
  *
- * return: (0) success
+ * return: 0 (success)
  */
 
  int main(void) 
  {
- 
-	int n;
+ 	int n;
 
 	srand(time(0));
 
