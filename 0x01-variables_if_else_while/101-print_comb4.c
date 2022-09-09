@@ -24,8 +24,7 @@ int main(void)
 
 			while (digit3 <= 9)
 			{
-				if (digit1 != digit2 &&
-					digit1 < digit2 &&
+				if (digit1 != digit2 &&			   					digit1 < digit2 &&
 					digit2 != digit3 &&
 					digit2 < digit3)
 				{
