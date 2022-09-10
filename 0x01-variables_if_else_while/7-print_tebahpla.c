@@ -9,7 +9,6 @@
  */
 
 int main(void)
-
 {
 	/*my code goes here*/
 
@@ -22,7 +21,6 @@ int main(void)
 	}
 	putchar('\n');
 
-	return (0);
-
+	return 0;
 
 }
