@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: write a lowercase in reversal mode.
+ * Description: write a lowercase a-z in reversal mode.
  *
  * return: Always 0 (success)
  */
