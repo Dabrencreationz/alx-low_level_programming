@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Description: Write a lowercase a-z in reversal mode.
  *
