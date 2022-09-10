@@ -9,6 +9,7 @@
  *
  * return: Always 0 (success)
 */
+
 int main(void)
 
 {
@@ -19,11 +20,11 @@ int main(void)
 
 	/* my code goes here */
 	if (n > 0)
-		printf("%i is positive\n", n);
+		printf("%i positive\n", n);
 	else if (n == 0)
-		printf("%i is zero\n", n);
+		printf("%i zero\n", n);
 	else
-		printf("%i is negative\n", n);
+		printf("%i negative\n", n);
 
 	return (0);
 
