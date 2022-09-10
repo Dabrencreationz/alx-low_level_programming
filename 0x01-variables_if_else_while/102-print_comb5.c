@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	int firstdegit =0, secondigit;
+	int firstDigit =0, seconDigit;
 
-	while (firstdigit <= 99)
+	while (firstDigit <= 99)
 	{
 		seconDigit = firstDigit;
 		while (seconDigit <=99)
@@ -40,5 +40,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
-	}
+}
