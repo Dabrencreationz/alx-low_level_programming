@@ -3,19 +3,19 @@
 /**
  * main - Entry point
  *
- * Description:write a program that prints two digit combinations
+ * Description: Write a program that prints two digit combinations
  *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	int firstDigit =0, seconDigit;
+	int firstDigit = 0, seconDigit;
 
 	while (firstDigit <= 99)
 	{
 		seconDigit = firstDigit;
-		while (seconDigit <=99)
+		while (seconDigit <= 99)
 		{
 			if (seconDigit != firstDigit)
 			{
