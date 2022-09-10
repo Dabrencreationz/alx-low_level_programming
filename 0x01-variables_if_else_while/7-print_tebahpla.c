@@ -10,6 +10,8 @@
 
 int main(void)
 {
+	/*my code goes here*/
+
 	char ch = 'z';
 
 	while (ch >= 'a')
