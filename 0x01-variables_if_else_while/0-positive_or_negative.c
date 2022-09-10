@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description - print the variable n if positive or negative or 0.
+ * Description - print the variable n if positive or negative or zero.
  *
  * return: Always 0 (success)
 */
@@ -20,11 +20,11 @@ int main(void)
 
 	/* my code goes here */
 	if (n > 0)
-		printf("%i positive\n", n);
+		printf("%i is positive\n", n);	
 	else if (n == 0)
-		printf("%i zero\n", n);
+		printf("%i is zero\n", n);
 	else
-		printf("%i negative\n", n);
+		printf("%i is negative\n", n);
 
 	return (0);
 
