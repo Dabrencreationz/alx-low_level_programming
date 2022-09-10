@@ -1,11 +1,11 @@
 #include<stdio.h>
 
 /**
- * main - Entry point
+ * Main - Entry point
  *
- * Description: write a lowercase a-z in reversal mode.
+ * Description: Write a lowercase a-z in reversal mode.
  *
- * return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
