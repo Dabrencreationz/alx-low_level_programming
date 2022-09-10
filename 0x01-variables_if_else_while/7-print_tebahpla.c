@@ -9,6 +9,7 @@
  */
 
 int main(void)
+
 {
 	/*my code goes here*/
 
