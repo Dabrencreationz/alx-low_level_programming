@@ -6,7 +6,7 @@
  * Description: Write a program that prints two digit combinations
  *
  * Return: Always 0 (success)
- */
+*/
 
 int main(void)
 {
