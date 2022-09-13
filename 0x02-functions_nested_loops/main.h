@@ -1,13 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-#include<stdio.h>
-
-/**
- * main - Entry point
- * Description: Write a _putchar 
- * Return: 0 
-*/
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 int _putchar(char c);
 void print_alphabet(void);
