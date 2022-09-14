@@ -5,14 +5,11 @@
  * Description: Sum of two integer a and b
  * @a: first input
  * @b: second input
- * return: sum a & b
+ * Return: Always 0
  */
 
 int add(int a, int b)
-
 {
-	int sum = a + b;
-
-	return (sum);
+	return (a + b);
 }
 
