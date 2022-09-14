@@ -2,14 +2,13 @@
 
 /**
  * main - finds and prints the first 98 Fibonacci numbers.
- *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
 	unsigned long int i, j, k, j1, j2, k1, k2;
-	
+
 	j = 1;
 	k = 2;
 
