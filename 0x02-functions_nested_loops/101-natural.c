@@ -26,7 +26,7 @@ int main(void)
 
 	}
 
-	printf("%d". total);
+	printf("%d", total);
 	printf("\n");
 
 	return (0);
