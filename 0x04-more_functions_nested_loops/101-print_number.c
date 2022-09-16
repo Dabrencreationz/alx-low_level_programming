@@ -1,7 +1,7 @@
-#include "main"
+#include "main.h"
 
 /**
- * print_number - Prints an integer.
+ * print_number - Prints an integer and can only use _putchar
  * @n: The integer to be printed.
  */
 

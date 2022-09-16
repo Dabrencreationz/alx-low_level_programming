@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * print_numbers - print 0 - 9 only using _putchar.c twice
@@ -10,14 +10,14 @@
 
 void print_numbers(void)
 {
-	int num = 0;
+	int num;
 
-	do {
+	for (num = 0; num <= 9; num++)
+	{
 		_putchar(num + 48);
 		num++;
 
-	}
-       	while (num >= 0 && num <= 9);
+	} while (num >= 0 && num <= 90);
 
 	_putchar('\n');
 }
