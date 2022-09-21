@@ -6,26 +6,24 @@
  * @s1: string 1 input to compare
  * @s2: compare against string 2
  *
- * Return: 0
- *
+ * Return: int
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, r;
-
-	while (s1[i] != '\0' && s2[i] != '\n')
+	while (((*s1 != '\0') && *(s2 != '\n')) && (*s1 == *s2))
 	{
-		if (s1[i] != s2[i])
-		{
-			r = s1[i] - s2[i];
-			break;
-		}
-		else
-		{
-			r = s1[i] - s2[i];
-		}
-		i++;
+		s1++;
+		s2++;
 	}
-	return (r);
+
+	if (*s1 == *s2)
+	{
+		return (0);
+	}
+	else
+	{
+		return (*s1 - *s2);
+	}
 }
+
