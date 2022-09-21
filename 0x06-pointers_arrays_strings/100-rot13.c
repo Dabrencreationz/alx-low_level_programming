@@ -1,25 +1,27 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * print_number - prints an integer
- * @n: integer
- * Return: nothing
+ * rot13 - encodes a string into rot13
+ * @s: string to encode
+ * Return: address of s
  */
 
-void print_number(int n)
+char *rot13(char *s)
 {
-	int divisor = 1, i, resp;
+	int i, j;
+	char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char b[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	if (n < 0)
+	for (i = 0; *(s + i); i++)
 	{
-		_putchar('_');
-		n *= -1;
+		for (j = 0; j < 52; j++)
+		{
+			if (a[j] == *(s + i))
+			{
+				*(s + i) = b[j];
+				break;
+			}
+		}
 	}
-	for (i = 0; n / divisor > 9; i++, divisor *= 10)
-		;
-	for (; divisor >= 1; n %= divisor, divisor /= 10)
-	{
-		resp = n / divisor;
-		_putchar('0' + resp);
-	}
+	return (s);
 }
