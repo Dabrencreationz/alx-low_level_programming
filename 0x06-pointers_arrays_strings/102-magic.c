@@ -17,7 +17,17 @@ int main(void)
 	p = &n;
 
 	p[5] = 98;
+	/*
+	 * write your line of code here...
+	 * Remember:
+	 * you are not allowed to use a
+	 * you are not allowed to modify p
+	 * only one ststement
+	 * -you are not allowed to code anything else than this line of code
+	 */
+
 	printf("a[2] = %d\n", a[2]);
+	/* ...so that this prints 98\n */
 
 	return (0);
 
