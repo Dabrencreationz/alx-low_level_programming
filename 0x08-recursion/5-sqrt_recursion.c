@@ -1,44 +1,36 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion_wrapper - a wrapper that does the recursion bit
- * @n : input number
- * @min: minimum number to g
- * @max: maximun number to g
- * Return: square root of @n or -1
+ * power_operation - returns the natural square root of a number.
+ * @n: input number.
+ * @c: iterator.
+ * Return: square root or -1.
  */
 
-int _sqrt_recursion_wrapper(int n, int min, int max)
+int power_operation(int n, int c)
 {
-	int g, g_s;
-
-	g = (min + max) / 2;
-	g_s = g * g;
-
-	if (g_s == n)
-		return (g);
-	else if (min == max)
-		return (-1);
-	else if (g_s < n)
-		return (_sqrt_recursion_wrapper(n, g + 1, max));
-	else
-		return (_sqrt_recursion_wrapper(n, min, g - 1));
+	if (c % (n / c) == 0)
+	{
+		if (c * (n / c) == n)
+			return (c);
+		else
+			return (-1);
+	}
+	return (0 + power_operation(n, c + 1));
 }
 
 /**
- * _sqrt_recursion - a function that returns the natural sqr root of a number
- * @n: number
- * Return: square root
+ * _sqrt_recursion - returns the natural square root of a number.
+ * @n: input number.
+ * Return: natural square root.
  */
-
 int _sqrt_recursion(int n)
 {
+	if (n < 0)
+		return (-1);
+	if (n == 0)
+		return (0);
 	if (n == 1)
 		return (1);
-	else if (n == 0)
-		return (0);
-	else if (n < 0)
-		return (-1);
-	else
-		return (_sqrt_recursion_wrapper(n, 1, n));
+	return (power_operation(n, 2));
 }
