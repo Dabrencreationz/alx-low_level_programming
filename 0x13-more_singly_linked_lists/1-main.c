@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "lists.h"
+#include "../lists.h"
 
 /**
- * main - check the code
+ * main - check the code for ALX School students.
+ *
  * Return: Always 0.
  */
 int main(void)
@@ -13,13 +14,14 @@ int main(void)
 	listint_t *new;
 	listint_t hello = {8, NULL};
 	size_t n;
-	
+
 	head = &hello;
 	new = malloc(sizeof(listint_t));
 	if (new == NULL)
+	{
 		printf("Error\n");
-	return (1);
-	
+		return (1);
+	}
 	new->n = 9;
 	new->next = head;
 	head = new;

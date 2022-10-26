@@ -4,8 +4,6 @@ Resources
 
 Read or watch:
 
-
-
 Google
 
 Youtube
@@ -13,8 +11,6 @@ Youtube
 Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-
 
 General
 
@@ -60,29 +56,23 @@ Please use this data structure for this project:
 
 /**
 
- * struct listint_s - singly linked list
+struct listint_s - singly linked list
 
- * @n: integer
+@n: integer
 
- * @next: points to the next node
+@next: points to the next node
 
- *
+Description: singly linked list node structure
 
- * Description: singly linked list node structure
-
- * 
-
- */
+*/
 
 typedef struct listint_s
 
 {
 
-    int n;
+int n;
 
-    struct listint_s *next;
-
+struct listint_s *next;
 } listint_t;
-
 
 As always, we are tested on various areas of he topic to get a better understanding of the topic.
